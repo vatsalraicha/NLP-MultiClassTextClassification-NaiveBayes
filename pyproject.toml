@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nlp-multiclasstextclassification-naivebayes"
+version = "0.1.0"
+description = ""
+authors = ["Vatsal Raicha <vatsalraicha@outlook.com>"]
+readme = "README.md"
+packages = [{include = "nlp_multiclasstextclassification_naivebayes", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
